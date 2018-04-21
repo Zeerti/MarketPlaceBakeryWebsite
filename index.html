@@ -10,27 +10,104 @@
   <title>Marketplace Bakery</title>
 </head>
 <body>
-    <nav>
-      <div class="nav-wrapper">
-        <a href="index.html" class="brand-logo center"><img src="./images/logo-transparent.png"></a> <!-- Configure for dynamic sizing-->
-        <ul id="nav-mobile" class="right hide-on-small-and-down">
-          <li><a href="sass.html">Sass</a></li>
-          <li><a href="badges.html">Components</a></li>
-          <li><a href="collapsible.html">JavaScript</a></li>
-        </ul>
-        <ul id="id" class="left">
-          <li>
-            <i class="material-icons">menu</i> <!-- TODO: Needs padding on left 10px to 20px-->
-          </li>
-        </ul>
+  <!-- Top Nav -->
+  <nav>
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo center"><img src="./images/logo-transparent.png"></a> <!-- Configure for dynamic sizing-->
+      <ul id="nav-mobile" class="right hide-on-small-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
+      </ul>
+      <ul id="id" data-target="slide-out" class="left sidenav-trigger">
+        <li>
+          <i class="material-icons">menu</i> <!-- TODO: Needs padding on left 10px to 20px-->
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Side Bar-->
+  <ul id="slide-out" class="sidenav">
+      <li class="valign-wrapper">
+          <div class="user-view deep-purple darken-1">
+              <h4 class="white-text">Marketplace Bakery</h4>
+          </div>
+      </li>
+      <li>
+          <a href="index.html">ORDER ONLINE</a>
+      </li>
+      <li>
+          <a href="#">SPECIALS</a>
+      </li>
+      <li>
+        <a href="#">MENU</a>
+      </li>
+      
+      <!-- Horizontal Line -->
+      <li>
+          <div class="divider"></div>
+      </li>
+      <li>
+          <a href="#">UPDATES</a>
+      </li>
+      
+      <li>
+          <a href="#">SCHEDULE</a>
+      </li>
+      <li>
+          <a href="#">LOCATION</a>
+      </li>
+      <li>
+          <a href="#">CONTACT US</a>
+      </li>
+  </ul>
+  
+
+  <!-- Main Body Begins -->
+  <div class="row">
+    <div class="col l12 m12 s12" id="carousel-element">
+      <div class="carousel carousel-slider center">
+        <div class="carousel-item white-text center" id="carousel-1" href="#one!">
+          <div class="carousel-text">
+            <h2>Cinnamon Rolls</h2>
+            <p class="white-text">Mouth melting goodness</p>
+          </div>
+        </div>
+        <div class="carousel-item white-text" id="carousel-2" href="#two!">
+          <div class="carousel-text">
+            <h2>Braided Spicy Garlic</h2>
+            <p class="white-text">Knotted heat of satiation</p>
+          </div>
+        </div>
+        <div class="carousel-item white-text" id="carousel-3" href="#three!">
+          <div class="carousel-text">
+            <h2>French Maple</h2>
+            <p class="white-text">The quintessential breakfast</p>
+          </div>
+        </div>
+        <div class="carousel-item white-text" id="carousel-4" href="#four!">
+          <div class="carousel-text">
+            <h2>Spiced Pumpkin</h2>
+            <p class="white-text">The essence of fall</p>
+          </div>
+        </div>
+        <div class="carousel-item white-text" id="carousel-5" href="#four!">
+          <div class="carousel-text">
+            <h2>Braided Spicy Garlic</h2>
+            <p class="white-text">The subtle heat you never knew you needed</p>
+          </div>
+        </div>
       </div>
-    </nav>
+    </div>
+  </div>
+    
 
 
 
 
 
-  WE HAVE DECIDUIOUS BREAD COME GET IT
+  
   <br><br><br><br><br><br><br><br><br><br>
   <br><br><br><br><br><br><br><br><br><br>
   <br><br><br><br><br><br><br><br><br><br>
@@ -44,18 +121,18 @@ Come see the bread on sunday, it's extra holy then!
 <!-- Begin Footer -->
     <footer class="page-footer">
       <div class="row">
-        <div class="col l6 m6 s8">
+        <div class="col l8 m8 s8">
           7800 Main Streed Suite 245 <br>
           Longmont CO<br> 
           80503 <br>
           <br>
         </div>
-        <div class="col l6 m6 s4">
+        <div class="col l4 m4 s4">
           Contact Us <br>
           999-999-9999
           email@hotnet.corgi
         </div>
-        <div class="col l6 m6 s12 center">
+        <div class="col l12 m12 s12 center">
             <br>Facebook -- Twitter -- Instagram -- Snapchat
           </div>
       </div>
@@ -71,6 +148,13 @@ Come see the bread on sunday, it's extra holy then!
   <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
   <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
   <script type="text/javascript" src="js/bin/materialize.min.js"></script>
-  <script type="text/javascript">M.AutoInit</script>
+  <script type="text/javascript">
+    var sideNavElem = document.querySelector('.sidenav');
+    var sideNavInstance = M.Sidenav.init(sideNavElem);
+
+    var carouselElem = document.querySelector('.carousel');
+    var carouselInstance = M.Carousel.init(carouselElem, {fullWidth: true, indicators: true});
+  </script>
+  <!-- <script type="text/javascript">M.AutoInit</script> TODO: Evaluate if this is needed? -->
 </body>
 </html>

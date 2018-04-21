@@ -1,0 +1,72 @@
+/* line 6, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/override_carousel.scss */
+.carousel-item {
+  visibility: hidden;
+  width: 100vw !important;
+  height: 400px !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 14, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/override_carousel.scss */
+.carousel-item > img {
+  width: 100%;
+}
+
+/* line 20, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/override_carousel.scss */
+#carousel-element {
+  padding: 0 !important;
+}
+
+/* line 24, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/override_carousel.scss */
+div.carousel-text {
+  background-color: rgba(0, 0, 0, 0.6);
+  transform: translate(0, 150%);
+}
+
+/* line 28, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/override_carousel.scss */
+div.carousel-text h2 {
+  opacity: 1 !important;
+}
+
+/* line 32, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/override_carousel.scss */
+div.carousel-text p {
+  opacity: 1 !important;
+}
+
+/* line 38, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/override_carousel.scss */
+#carousel-1 {
+  background-repeat: no-repeat !important;
+  background-image: url("../images/Cinnamon-roll.jpg") !important;
+  background-size: 100%, 100VW;
+}
+
+/* line 45, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/override_carousel.scss */
+#carousel-2 {
+  background-repeat: no-repeat !important;
+  background-image: url("../images/Garlic-Sesame.jpg") !important;
+  background-size: 100%, 100VW;
+}
+
+/* line 51, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/override_carousel.scss */
+#carousel-3 {
+  background-repeat: no-repeat !important;
+  background-image: url("../images/Maple-French.jpg") !important;
+  background-size: 100%, 100VW;
+}
+
+/* line 57, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/override_carousel.scss */
+#carousel-4 {
+  background-repeat: no-repeat !important;
+  background-image: url("../images/Pumpkin.jpg") !important;
+  background-size: 100%, 100VW;
+}
+
+/* line 63, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/override_carousel.scss */
+#carousel-5 {
+  background-repeat: no-repeat !important;
+  background-image: url("../images/Garlic-Sesame.jpg") !important;
+  background-size: 100%, 100VW;
+}
+
+/*# sourceMappingURL=../style/override_carousel.map */
