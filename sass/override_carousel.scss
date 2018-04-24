@@ -1,18 +1,14 @@
-$carousel-height: 400px;
-$carousel-item-height: $carousel-height ;
-$carousel-item-width: 100vw;
-
-
 .carousel-item {
     visibility: hidden;
-    width: $carousel-item-width !important;
-    height: $carousel-item-height !important;
+    height: auto;
     position: absolute;
     top: 0;
     left: 0;
+    width:  auto;
+    min-height: 1px !important;
 
     & > img {
-      width: 100%;
+      max-height: 400px;
     }
 
 }
@@ -37,31 +33,31 @@ div.carousel-text {
 
 #carousel-1 {
     background-repeat: no-repeat !important;
-    background-image: url("../images/Horizontal/bee-loaf.jpg") !important;
+    background-color: color("green", "darken-2");
     background-size: contain;
 }
 
 
 #carousel-2 {
     background-repeat: no-repeat !important;
-    background-image: url("../images/Horizontal/before-after-boule.png") !important;
+    background-color: color("green", "darken-2");
     background-size: contain;
 }
 
 #carousel-3 {
     background-repeat: no-repeat !important;
-    background-image: url("../images/Horizontal/cinnamon-roll-horizontal.jpg") !important;
+    background-color: color("green", "darken-2");
     background-size: contain;
 }
 
 #carousel-4 {
     background-repeat: no-repeat !important;
-    background-image: url("../images/veritcal/Hoagie.JPG") !important;
+    background-color: color("green", "darken-2");
     background-size: contain;
 }
 
 #carousel-5 {
     background-repeat: no-repeat !important;
-    background-image: url("../images/veritcal/ginger-loaf.jpg") !important;
+    background-color: color("green", "darken-2");
     background-size: contain;
 }
