@@ -34,11 +34,11 @@
 // 1. Colors
 // ==========================================================================
 
-$primary-color: color("brown", "lighten-1") !default;
+$primary-color: color("teal", "lighten-1") !default;
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
 
-$secondary-color: color("green", "darken-2") !default;
+$secondary-color: color("cyan", "base") !default;
 $success-color: color("green", "base") !default;
 $error-color: color("red", "base") !default;
 $link-color: color("light-blue", "darken-1") !default;
@@ -248,7 +248,7 @@ $navbar-height-mobile: 56px !default;
 $navbar-line-height-mobile: $navbar-height-mobile !default;
 $navbar-font-size: 1rem !default;
 $navbar-font-color: #fff !default;
-$navbar-brand-font-size: 2.1rem !default;
+$navbar-brand-font-size: 3.0rem !default;
 
 // 14. Side Navigation
 // ==========================================================================
@@ -303,8 +303,9 @@ $toast-action-color: #eeff41;
 // ==========================================================================
 
 $font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !default;
+$font-header: 'Amatic SC', cursive;
 $off-black: rgba(0, 0, 0, 0.87) !default;
-// Header Styles
+// Header Styles font-family: 
 $h1-fontsize: 4.2rem !default;
 $h2-fontsize: 3.56rem !default;
 $h3-fontsize: 2.92rem !default;

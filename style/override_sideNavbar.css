@@ -1,0 +1,9 @@
+/* line 1, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/override_sideNavbar.scss */
+.card .card-image .card-title {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 100%;
+}
+
+/*# sourceMappingURL=../style/override_sideNavbar.map */
