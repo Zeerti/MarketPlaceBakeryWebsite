@@ -1,1 +1,73 @@
-.carousel-item{visibility:hidden;width:100vw !important;height:400px !important;position:absolute;top:0;left:0}.carousel-item>img{width:100%}#carousel-element{padding:0 !important}div.carousel-text{background-color:rgba(0,0,0,0.6);transform:translate(0, 150%)}div.carousel-text h2{opacity:1 !important}div.carousel-text p{opacity:1 !important}#carousel-1{background-repeat:no-repeat !important;background-image:url("../images/Horizontal/bee-loaf.jpg") !important;background-size:100%, 100VW}#carousel-2{background-repeat:no-repeat !important;background-image:url("../images/Horizontal/before-after-boule.png") !important;background-size:100%, 100VW}#carousel-3{background-repeat:no-repeat !important;background-image:url("../images/Horizontal/cinnamon-roll-horizontal.jpg") !important;background-size:100%, 100VW}#carousel-4{background-repeat:no-repeat !important;background-image:url("../images/veritcal/Hoagie.JPG") !important;background-size:100%, 100VW}#carousel-5{background-repeat:no-repeat !important;background-image:url("../images/Garlic-Sesame.jpg") !important;background-size:100%, 100VW}
+/* line 1, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/override_carousel.scss */
+.carousel-item {
+  visibility: hidden;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  min-height: 1px !important;
+}
+
+/* line 10, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/override_carousel.scss */
+.carousel-item > img {
+  max-height: 400px;
+}
+
+/* line 16, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/override_carousel.scss */
+#carousel-element {
+  padding: 0 !important;
+}
+
+/* line 20, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/override_carousel.scss */
+div.carousel-text {
+  background-color: rgba(0, 0, 0, 0.6);
+  transform: translate(0, 150%);
+}
+
+/* line 24, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/override_carousel.scss */
+div.carousel-text h2 {
+  opacity: 1 !important;
+}
+
+/* line 28, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/override_carousel.scss */
+div.carousel-text p {
+  opacity: 1 !important;
+}
+
+/* line 34, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/override_carousel.scss */
+#carousel-1 {
+  background-repeat: no-repeat !important;
+  background-color: color("green", "darken-2");
+  background-size: contain;
+}
+
+/* line 41, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/override_carousel.scss */
+#carousel-2 {
+  background-repeat: no-repeat !important;
+  background-color: color("green", "darken-2");
+  background-size: contain;
+}
+
+/* line 47, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/override_carousel.scss */
+#carousel-3 {
+  background-repeat: no-repeat !important;
+  background-color: color("green", "darken-2");
+  background-size: contain;
+}
+
+/* line 53, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/override_carousel.scss */
+#carousel-4 {
+  background-repeat: no-repeat !important;
+  background-color: color("green", "darken-2");
+  background-size: contain;
+}
+
+/* line 59, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/override_carousel.scss */
+#carousel-5 {
+  background-repeat: no-repeat !important;
+  background-color: color("green", "darken-2");
+  background-size: contain;
+}
+
+/*# sourceMappingURL=../style/override_carousel.map */
