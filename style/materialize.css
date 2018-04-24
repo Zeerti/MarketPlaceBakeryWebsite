@@ -5173,11 +5173,12 @@ nav .brand-logo {
   position: absolute;
   color: #fff;
   display: inline-block;
-  font-size: 2.1rem;
+  font-size: 3rem;
+  font-family: "Amatic SC", cursive;
   padding: 0;
 }
 
-/* line 67, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
+/* line 68, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
 nav .brand-logo.center {
   left: 50%;
   transform: translateX(-50%);
@@ -5189,29 +5190,29 @@ nav .brand-logo.center {
     left: 50%;
     transform: translateX(-50%);
   }
-  /* line 76, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
+  /* line 77, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
   nav .brand-logo.left, nav .brand-logo.right {
     padding: 0;
     transform: none;
   }
-  /* line 81, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
+  /* line 82, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
   nav .brand-logo.left {
     left: 0.5rem;
   }
-  /* line 82, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
+  /* line 83, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
   nav .brand-logo.right {
     right: 0.5rem;
     left: auto;
   }
 }
 
-/* line 88, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
+/* line 89, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
 nav .brand-logo.right {
   right: 0.5rem;
   padding: 0;
 }
 
-/* line 93, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
+/* line 94, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
 nav .brand-logo i,
 nav .brand-logo [class^="mdi-"], nav .brand-logo [class*="mdi-"],
 nav .brand-logo i.material-icons {
@@ -5219,31 +5220,31 @@ nav .brand-logo i.material-icons {
   margin-right: 15px;
 }
 
-/* line 103, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
+/* line 104, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
 nav .nav-title {
   display: inline-block;
   font-size: 32px;
   padding: 28px 0;
 }
 
-/* line 111, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
+/* line 112, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
 nav ul {
   margin: 0;
 }
 
-/* line 114, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
+/* line 115, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
 nav ul li {
   transition: background-color .3s;
   float: left;
   padding: 0;
 }
 
-/* line 119, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
+/* line 120, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
 nav ul li.active {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-/* line 123, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
+/* line 124, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
 nav ul a {
   transition: background-color .3s;
   font-size: 1rem;
@@ -5253,41 +5254,41 @@ nav ul a {
   cursor: pointer;
 }
 
-/* line 131, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
+/* line 132, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
 nav ul a.btn, nav ul a.btn-large, nav ul a.btn-small, nav ul a.btn-large, nav ul a.btn-flat, nav ul a.btn-floating {
   margin-top: -2px;
   margin-left: 15px;
   margin-right: 15px;
 }
 
-/* line 136, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
+/* line 137, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
 nav ul a.btn > .material-icons, nav ul a.btn-large > .material-icons, nav ul a.btn-small > .material-icons, nav ul a.btn-large > .material-icons, nav ul a.btn-flat > .material-icons, nav ul a.btn-floating > .material-icons {
   height: inherit;
   line-height: inherit;
 }
 
-/* line 142, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
+/* line 143, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
 nav ul a:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-/* line 147, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
+/* line 148, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
 nav ul.left {
   float: left;
 }
 
-/* line 153, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
+/* line 154, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
 nav form {
   height: 100%;
 }
 
-/* line 157, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
+/* line 158, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
 nav .input-field {
   margin: 0;
   height: 100%;
 }
 
-/* line 161, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
+/* line 162, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
 nav .input-field input {
   height: 100%;
   font-size: 1.2rem;
@@ -5295,52 +5296,52 @@ nav .input-field input {
   padding-left: 2rem;
 }
 
-/* line 167, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
+/* line 168, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
 nav .input-field input:focus, nav .input-field input[type=text]:valid, nav .input-field input[type=password]:valid, nav .input-field input[type=email]:valid, nav .input-field input[type=url]:valid, nav .input-field input[type=date]:valid {
   border: none;
   box-shadow: none;
 }
 
-/* line 174, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
+/* line 175, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
 nav .input-field label {
   top: 0;
   left: 0;
 }
 
-/* line 178, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
+/* line 179, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
 nav .input-field label i {
   color: rgba(255, 255, 255, 0.7);
   transition: color .3s;
 }
 
-/* line 182, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
+/* line 183, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
 nav .input-field label.active i {
   color: #fff;
 }
 
-/* line 188, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
+/* line 189, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
 .navbar-fixed {
   position: relative;
   height: 56px;
   z-index: 997;
 }
 
-/* line 193, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
+/* line 194, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
 .navbar-fixed nav {
   position: fixed;
 }
 
 @media only screen and (min-width: 601px) {
-  /* line 198, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
+  /* line 199, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
   nav.nav-extended .nav-wrapper {
     min-height: 64px;
   }
-  /* line 201, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
+  /* line 202, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
   nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
     height: 64px;
     line-height: 64px;
   }
-  /* line 205, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
+  /* line 206, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_navbar.scss */
   .navbar-fixed {
     height: 64px;
   }
@@ -5384,229 +5385,230 @@ html {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   line-height: 1.3;
+  font-family: "Amatic SC", cursive;
 }
 
-/* line 31, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+/* line 32, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-weight: inherit;
 }
 
-/* line 32, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+/* line 33, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
 h1 {
   font-size: 4.2rem;
   line-height: 110%;
   margin: 2.8rem 0 1.68rem 0;
 }
 
-/* line 33, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+/* line 34, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
 h2 {
   font-size: 3.56rem;
   line-height: 110%;
   margin: 2.37333rem 0 1.424rem 0;
 }
 
-/* line 34, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+/* line 35, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
 h3 {
   font-size: 2.92rem;
   line-height: 110%;
   margin: 1.94667rem 0 1.168rem 0;
 }
 
-/* line 35, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+/* line 36, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
 h4 {
   font-size: 2.28rem;
   line-height: 110%;
   margin: 1.52rem 0 0.912rem 0;
 }
 
-/* line 36, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+/* line 37, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
 h5 {
   font-size: 1.64rem;
   line-height: 110%;
   margin: 1.09333rem 0 0.656rem 0;
 }
 
-/* line 37, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+/* line 38, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
 h6 {
   font-size: 1.15rem;
   line-height: 110%;
   margin: 0.76667rem 0 0.46rem 0;
 }
 
-/* line 40, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+/* line 41, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
 em {
   font-style: italic;
 }
 
-/* line 41, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+/* line 42, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
 strong {
   font-weight: 500;
 }
 
-/* line 42, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+/* line 43, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
 small {
   font-size: 75%;
 }
 
-/* line 43, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+/* line 44, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
 .light {
   font-weight: 300;
 }
 
-/* line 44, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+/* line 45, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
 .thin {
   font-weight: 200;
 }
 
 @media only screen and (min-width: 360px) {
-  /* line 47, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+  /* line 48, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
   .flow-text {
     font-size: 1.2rem;
   }
 }
 
 @media only screen and (min-width: 390px) {
-  /* line 47, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+  /* line 48, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
   .flow-text {
     font-size: 1.224rem;
   }
 }
 
 @media only screen and (min-width: 420px) {
-  /* line 47, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+  /* line 48, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
   .flow-text {
     font-size: 1.248rem;
   }
 }
 
 @media only screen and (min-width: 450px) {
-  /* line 47, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+  /* line 48, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
   .flow-text {
     font-size: 1.272rem;
   }
 }
 
 @media only screen and (min-width: 480px) {
-  /* line 47, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+  /* line 48, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
   .flow-text {
     font-size: 1.296rem;
   }
 }
 
 @media only screen and (min-width: 510px) {
-  /* line 47, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+  /* line 48, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
   .flow-text {
     font-size: 1.32rem;
   }
 }
 
 @media only screen and (min-width: 540px) {
-  /* line 47, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+  /* line 48, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
   .flow-text {
     font-size: 1.344rem;
   }
 }
 
 @media only screen and (min-width: 570px) {
-  /* line 47, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+  /* line 48, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
   .flow-text {
     font-size: 1.368rem;
   }
 }
 
 @media only screen and (min-width: 600px) {
-  /* line 47, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+  /* line 48, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
   .flow-text {
     font-size: 1.392rem;
   }
 }
 
 @media only screen and (min-width: 630px) {
-  /* line 47, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+  /* line 48, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
   .flow-text {
     font-size: 1.416rem;
   }
 }
 
 @media only screen and (min-width: 660px) {
-  /* line 47, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+  /* line 48, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
   .flow-text {
     font-size: 1.44rem;
   }
 }
 
 @media only screen and (min-width: 690px) {
-  /* line 47, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+  /* line 48, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
   .flow-text {
     font-size: 1.464rem;
   }
 }
 
 @media only screen and (min-width: 720px) {
-  /* line 47, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+  /* line 48, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
   .flow-text {
     font-size: 1.488rem;
   }
 }
 
 @media only screen and (min-width: 750px) {
-  /* line 47, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+  /* line 48, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
   .flow-text {
     font-size: 1.512rem;
   }
 }
 
 @media only screen and (min-width: 780px) {
-  /* line 47, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+  /* line 48, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
   .flow-text {
     font-size: 1.536rem;
   }
 }
 
 @media only screen and (min-width: 810px) {
-  /* line 47, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+  /* line 48, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
   .flow-text {
     font-size: 1.56rem;
   }
 }
 
 @media only screen and (min-width: 840px) {
-  /* line 47, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+  /* line 48, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
   .flow-text {
     font-size: 1.584rem;
   }
 }
 
 @media only screen and (min-width: 870px) {
-  /* line 47, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+  /* line 48, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
   .flow-text {
     font-size: 1.608rem;
   }
 }
 
 @media only screen and (min-width: 900px) {
-  /* line 47, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+  /* line 48, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
   .flow-text {
     font-size: 1.632rem;
   }
 }
 
 @media only screen and (min-width: 930px) {
-  /* line 47, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+  /* line 48, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
   .flow-text {
     font-size: 1.656rem;
   }
 }
 
 @media only screen and (min-width: 960px) {
-  /* line 47, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+  /* line 48, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
   .flow-text {
     font-size: 1.68rem;
   }
 }
 
 @media only screen and (max-width: 360px) {
-  /* line 47, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
+  /* line 48, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/components/_typography.scss */
   .flow-text {
     font-size: 1.2rem;
   }
@@ -10119,6 +10121,11 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
   width: 100%;
 }
 
+/* line 13, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/landing-page.scss */
+.font-2 {
+  font-family: "Amatic SC", cursive;
+}
+
 /* line 1, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/override_carousel.scss */
 .carousel-item {
   visibility: hidden;
@@ -10189,6 +10196,14 @@ div.carousel-text p {
   background-repeat: no-repeat !important;
   background-color: #388E3C;
   background-size: contain;
+}
+
+/* line 1, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/override_SideNavbar.scss */
+.card .card-image .card-title {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 100%;
 }
 
 /*# sourceMappingURL=../style/materialize.map */
