@@ -37,7 +37,7 @@
           <a href="#" class="white-text">SPECIALS</a>
       </li>
       <li>
-        <a href="#" class="white-text">MENU</a>
+        <a href="./content/menu.html" class="white-text">MENU</a>
       </li>
       
       <!-- Horizontal Line -->
@@ -45,7 +45,7 @@
           <div class="divider"></div>
       </li>
       <li>
-          <a href="./html/about.html" class="white-text">ABOUT US</a>
+          <a href="./content/about.html" class="white-text">ABOUT US</a>
       </li>
       
       <li>
@@ -59,6 +59,9 @@
       </li>
   </ul>
   <!-- Main Body Begins -->
+<div class="parallax-container">
+  <div class="parallax"><img src="./images/background-1.jpg" alt=""></div>
+</div>
 
 <div class="row">
   <div class="col s12">
@@ -72,6 +75,11 @@
       </div>
     </div>
   </div>
+</div>
+
+<!-- parallax -->
+<div class="parallax-container">
+  <div class="parallax"><img src="./images/background-1.jpg" alt=""></div>
 </div>
 
 <div class="row">
@@ -88,6 +96,11 @@
   </div>
 </div>
 
+<!-- parallax -->
+<div class="parallax-container">
+  <div class="parallax"><img src="./images/background-1.jpg" alt=""></div>
+</div>
+
 <div class="row">
   <div class="col s12">
     <div class="card medium">
@@ -100,6 +113,11 @@
       </div>
     </div>
   </div>
+</div>
+
+<!-- parallax -->
+<div class="parallax-container">
+  <div class="parallax"><img src="./images/background-1.jpg" alt=""></div>
 </div>
 
 <div class="row">
@@ -151,11 +169,12 @@
   <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
   <script type="text/javascript" src="js/bin/materialize.min.js"></script>
   <script type="text/javascript">
-    var sideNavElem = document.querySelector('.sidenav');
-    var sideNavInstance = M.Sidenav.init(sideNavElem);
 
-    var carouselElem = document.querySelector('.carousel');
-    var carouselInstance = M.Carousel.init(carouselElem, {fullWidth: true, indicators: true, duration: 200});
+    let carouselElem = document.querySelector('.carousel');
+    let carouselInstance = M.Carousel.init(carouselElem, {fullWidth: true, indicators: true, duration: 200});
+
+    M.AutoInit();
+
   </script>
   <!-- <script type="text/javascript">M.AutoInit</script> TODO: Evaluate if this is needed? -->
 </body>
