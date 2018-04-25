@@ -13,3 +13,14 @@
 .font-2{
     font-family: $font-header;
 }
+
+.parallax-container{ 
+    height: 50px;
+}
+div.row {
+    margin:0
+}
+
+.transparentBG {
+    background-color: rgba(0,0,0,.01) !important;
+}
