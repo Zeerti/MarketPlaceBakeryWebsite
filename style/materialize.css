@@ -10128,15 +10128,27 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
 
 /* line 17, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/_landing-page.scss */
 .parallax-container {
-  height: 50px;
+  height: 80px;
 }
 
-/* line 20, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/_landing-page.scss */
+/* line 21, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/_landing-page.scss */
+.parallax {
+  background-color: #00bcd4;
+}
+
+/* line 25, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/_landing-page.scss */
+.parallax-container .parallax img {
+  opacity: 0.8 !important;
+  background-color: rgba(0, 0, 0, 0.87);
+  filter: alpha(opacity=70);
+}
+
+/* line 30, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/_landing-page.scss */
 div.row {
   margin: 0;
 }
 
-/* line 24, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/_landing-page.scss */
+/* line 34, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/_landing-page.scss */
 .transparentBG {
   background-color: rgba(0, 0, 0, 0.01) !important;
 }

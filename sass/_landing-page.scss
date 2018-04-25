@@ -15,7 +15,17 @@
 }
 
 .parallax-container{ 
-    height: 50px;
+    height: 80px;
+}
+
+.parallax {
+    background-color: $secondary-color;
+}
+
+.parallax-container .parallax img {
+    opacity: 0.8 !important;
+    background-color: $off-black;
+    filter: alpha(opacity=70);
 }
 div.row {
     margin:0
