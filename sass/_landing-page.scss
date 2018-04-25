@@ -19,11 +19,11 @@
 }
 
 .parallax {
-    background-color: $secondary-color;
+    background-color: darkslategray;
 }
 
 .parallax-container .parallax img {
-    opacity: 0.8 !important;
+    opacity: 0.5 !important;
     background-color: $off-black;
     filter: alpha(opacity=70);
 }
@@ -33,4 +33,19 @@ div.row {
 
 .transparentBG {
     background-color: rgba(0,0,0,.01) !important;
+}
+
+.card-button-container {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+
+    a.btn {
+        width: 95%;
+    }
+
+    .btn:hover {
+        color: red;
+    }
 }
