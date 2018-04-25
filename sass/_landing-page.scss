@@ -1,0 +1,36 @@
+.nav-wrapper > a > img {
+    max-height: 56px;
+    max-width: 100%;
+}
+
+#about-marketplace {
+    img { 
+        width: 100%;
+    }
+        
+}
+
+.font-2{
+    font-family: $font-header;
+}
+
+.parallax-container{ 
+    height: 80px;
+}
+
+.parallax {
+    background-color: $secondary-color;
+}
+
+.parallax-container .parallax img {
+    opacity: 0.8 !important;
+    background-color: $off-black;
+    filter: alpha(opacity=70);
+}
+div.row {
+    margin:0
+}
+
+.transparentBG {
+    background-color: rgba(0,0,0,.01) !important;
+}
