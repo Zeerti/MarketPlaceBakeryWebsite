@@ -10171,6 +10171,17 @@ div.row {
   color: red;
 }
 
+
+
+.fab {
+  font-size: 3em;
+  padding: 10px;
+  padding-bottom: 10px;
+  padding-top: 0;
+  color: white;
+}
+
+
 /* line 1, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/_override_carousel.scss */
 .carousel-item {
   visibility: hidden;

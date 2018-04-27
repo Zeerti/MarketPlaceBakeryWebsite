@@ -7,6 +7,7 @@
   <link href="./style/materialize.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
   <title>Marketplace Bakery</title>
 </head>
 <body>
@@ -52,7 +53,7 @@
           <a href="#" class="white-text">SCHEDULE</a>
       </li>
       <li>
-          <a href="#" class="white-text">LOCATION</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=1515%20Main%20Street%20Unit%201%20Longmont%20Colorado%2080501%20Marketplace%20Bakery" class="white-text">LOCATION</a>
       </li>
       <li>
           <a href="#" class="white-text">CONTACT US</a>
@@ -149,29 +150,33 @@
 
 
 <!-- Begin Footer -->
-    <footer class="page-footer">
-      <div class="row">
-        <div class="col l8 m8 s8">
-          7800 Main Streed Suite 245 <br>
-          Longmont CO<br> 
-          80503 <br>
-          <br>
-        </div>
-        <div class="col l4 m4 s4">
-          Contact Us <br>
-          999-999-9999
-          email@hotnet.corgi
-        </div>
-        <div class="col l12 m12 s12 center">
-            <br>Facebook -- Twitter -- Instagram -- Snapchat
-          </div>
+<footer class="page-footer">
+  <div class="row">
+    <div class="col l8 m8 s8">
+      1515 Main Street - Unit 1 <br>
+      Longmont, CO 80503<br>
+      <br>
+    </div>
+    <div class="col l4 m4 s4">
+      <a href="#email" class="btn-small dropdown-trigger" data-target="dropdown1">Contact Us</a>
+      <ul id='dropdown1' class='dropdown-content'>
+        <li><a href="#!">Bread@marketplace.com</a></li>
+        <li><a href="#!">303-666-5544</a></li>
+      </ul>
+
+    </div>
+    <div class="col l12 m12 s12 center white-text">
+      <a><i class="fab fa-facebook-square"></i></a>
+      <a><i class="fab fa-twitter-square"></i></a>
+      <a><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+  <div class="footer-copyright center-align">
+      <div class="container">
+          © 2018 Marketplace Bakery
       </div>
-      <div class="footer-copyright center-align">
-          <div class="container">
-              © 2018 Marketplace Bakery
-          </div>
-        </div>
-    </footer>
+    </div>
+</footer>
 
 
   <!-- TODO: Investigate using slick for carousel !!Requires jquery -->
@@ -182,6 +187,9 @@
 
     let carouselElem = document.querySelector('.carousel');
     let carouselInstance = M.Carousel.init(carouselElem, {fullWidth: true, indicators: true, duration: 200});
+
+    let contactDropDownElem = document.querySelector('.dropdown-trigger');
+    let contactDropDownInstance = M.Dropdown.init(contactDropDownElem, {constrainWidth: false})
 
     M.AutoInit();
 
