@@ -53,9 +53,19 @@ div.row {
 
 .fab {
     font-size: 3em;
-    padding: 10px;
-    padding-bottom: 10px;
-    padding-top: 0;
+    margin: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
     color: white;
 
 }
+
+#footer-contact-btn {
+    width: 100%;
+    
+}
+
+.card-image + .card-content  {
+    max-height: 50% !important;
+}
+

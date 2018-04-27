@@ -10171,16 +10171,24 @@ div.row {
   color: red;
 }
 
-
-
+/* line 54, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/_landing-page.scss */
 .fab {
   font-size: 3em;
-  padding: 10px;
-  padding-bottom: 10px;
-  padding-top: 0;
+  margin: 10px;
+  margin-bottom: 10px;
+  margin-top: 15px;
   color: white;
 }
 
+/* line 63, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/_landing-page.scss */
+#footer-contact-btn {
+  width: 100%;
+}
+
+/* line 68, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/_landing-page.scss */
+.card-image + .card-content {
+  max-height: 50% !important;
+}
 
 /* line 1, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/_override_carousel.scss */
 .carousel-item {
