@@ -10282,4 +10282,19 @@ img {
   max-width: 100%;
 }
 
+/* line 11, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/_menu.scss */
+.price {
+  width: 100%;
+}
+
+/* line 15, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/_menu.scss */
+.collapsible-header .flow-text {
+  width: 100%;
+}
+
+/* line 21, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/_menu.scss */
+.collapsible-body img {
+  margin-top: 12px;
+}
+
 /*# sourceMappingURL=../style/materialize.map */
