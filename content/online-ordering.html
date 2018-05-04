@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="../style/materialize.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+  <title>Marketplace Bakery</title>
+</head>
+<body>
+  <!-- Top Nav -->
+  <nav>
+    <div class="nav-wrapper">
+      <div class="brand-logo white-text center">Marketplace</div>
+      <a href="index.html" class="brand-logo right"><img src="../images/Logos/Cartoon-portrait-quick-cut.png"></a> <!-- Configure for dynamic sizing-->
+      <ul id="id" data-target="slide-out" class="left sidenav-trigger">
+        <li>
+          <a href="#"><i class="material-icons">menu</i></a> <!-- TODO: Needs padding on left 10px to 20px-->
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Side Bar-->
+  <ul id="slide-out" class="sidenav teal darken-1">
+      <li>
+          <div class="user-view cyan darken-1 valign-wrapper">
+              <h1 class="white-text">Marketplace Bakery</h1>
+          </div>
+      </li>
+      <li>
+          <a href="./online-ordering.html" class="white-text">ONLINE ORDERING</a>
+      </li>
+      <li>
+          <a href="#" class="white-text">SPECIALS</a>
+      </li>
+      <li>
+        <a href="./menu.html" class="white-text">MENU</a>
+      </li>
+      
+      <!-- Horizontal Line -->
+      <li>
+          <div class="divider"></div>
+      </li>
+      <li>
+          <a href="./about.html" class="white-text">ABOUT US</a>
+      </li>
+      
+      <li>
+          <a href="./schedule.html" class="white-text">SCHEDULE</a>
+      </li>
+      <li>
+          <a href="https://www.google.com/maps/search/?api=1&query=1515%20Main%20Street%20Unit%201%20Longmont%20Colorado%2080501%20Marketplace%20Bakery" class="white-text">LOCATION</a>
+      </li>
+      <li>
+          <!-- Unsure how this should be handled. There is a button in the footer.  -->
+          <a href="#" class="white-text">CONTACT US</a> 
+      </li>
+  </ul>
+
+  <!-- Main Body Begins -->
+
+
+<div class="row">
+  <div class="col s12">
+    <div class="card medium">
+      <div class="card-image">
+        <img src="../images/Horizontal/chocolate-loaf-baked.jpg" alt="">
+        <span class="card-title center-align font-2 strong"><h4>Online Ordering!</h4></span>
+      </div>  
+      <div class="card-content">
+        <p class="flow-text">Coming soon!</p>
+        <div class="card-button-container center">
+          <a href="#" class="btn waves-light waves-effect teal darken-1 waves-green white-text">Go to the bread menu</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<!-- Begin Footer -->
+<footer class="page-footer">
+  <div class="row">
+    <div class="col l8 m8 s12 center">
+      1515 Main Street - Unit 1 <br>
+      Longmont, CO 80503<br>
+      <br>
+    </div>
+    <div class="col l4 m4 s12 center">
+      <a href="#email" class="btn-small teal darken-1 white-text dropdown-trigger" id="footer-contact-btn" data-target="dropdown1">Contact Us</a>
+      <ul id='dropdown1' class='dropdown-content'>
+        <li><a href="mailto:bread@marketplace.com">Bread@marketplace.com</a></li>
+        <li><a href="tel:(303) 666 5544">303-666-5544</a></li>
+      </ul>
+
+    </div>
+    <div class="col l12 m12 s12 center white-text">
+      <a href="https://www.facebook.com/marketplacebakerylongmont/"><i class="fab fa-facebook-square"></i></a>
+      <a><i class="fab fa-twitter-square"></i></a>
+      <a href="https://www.instagram.com/explore/locations/1030968103/marketplace-bakery-longmont/"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+  <div class="footer-copyright center-align">
+      <div class="container">
+          © 2018 Marketplace Bakery
+      </div>
+    </div>
+</footer>
+
+
+  <!-- TODO: Investigate using slick for carousel !!Requires jquery -->
+  <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+  <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+  <script type="text/javascript" src="../js/bin/materialize.min.js"></script>
+  <script type="text/javascript">
+
+    let carouselElem = document.querySelector('.carousel');
+    let carouselInstance = M.Carousel.init(carouselElem, {fullWidth: true, indicators: true, duration: 200});
+
+    let contactDropDownElem = document.querySelector('.dropdown-trigger');
+    let contactDropDownInstance = M.Dropdown.init(contactDropDownElem, {constrainWidth: false})
+
+    M.AutoInit();
+
+  </script>
+  <!-- <script type="text/javascript">M.AutoInit</script> TODO: Evaluate if this is needed? -->
+</body>
+</html>
