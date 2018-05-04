@@ -10270,4 +10270,16 @@ div.carousel-text p {
   width: 100%;
 }
 
+/* line 1, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/_menu.scss */
+img.full-width {
+  max-width: 100vw;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 7, C:/Users/PAR/Desktop/Javascript30/MarketPlaceBakeryWebsite/sass/_menu.scss */
+img {
+  max-width: 100%;
+}
+
 /*# sourceMappingURL=../style/materialize.map */
